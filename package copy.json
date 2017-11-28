@@ -1,0 +1,22 @@
+{
+  "name": "vue-material-icon",
+  "version": "1.0.0",
+  "description": "Vue.js functional component to display material icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achwilko/vue-material-icon.git"
+  },
+  "keywords": [
+    "icon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/achwilko/vue-material-icon/issues"
+  },
+  "homepage": "https://github.com/achwilko/vue-material-icon#readme"
+}
