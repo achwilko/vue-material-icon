@@ -6,9 +6,10 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "start": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "test": "jest --config test/unit/jest.conf.js --coverage",
+    "test": "jest --config test/unit/jest.conf.js",
+    "test:coverage": "jest --config test/unit/jest.conf.js --coverage",
     "build": "node build/build.js",
-    "prebuild": "npm run test"
+    "prebuild": "npm run test:coverage"
   },
   "repository": {
     "type": "git",
