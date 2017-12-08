@@ -8,6 +8,7 @@ module.exports = {
     'vue'
   ],
   moduleNameMapper: {
+    '^vue$': 'vue/dist/vue.common.js',
     '^@/(.*)$': '<rootDir>/src/$1'
   },
   transform: {
@@ -19,7 +20,7 @@ module.exports = {
   mapCoverage: true,
   coverageDirectory: '<rootDir>/test/unit/coverage',
   collectCoverageFrom: [
-    'src/**/*.{js,vue}',
+    'src/components/*.vue',
     '!src/main.js',
     '!**/node_modules/**'
   ]
