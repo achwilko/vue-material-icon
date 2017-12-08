@@ -5,6 +5,12 @@
   </span>
 </template>
 
+<script>
+  export default {
+    name: 'VueMaterialIcon'
+  }
+</script>
+
 <style scoped>
   @font-face {
     font-family: 'Material Icons';
