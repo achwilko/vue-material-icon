@@ -19,7 +19,7 @@ Vue.component(VueMaterialIcon.name, VueMaterialIcon)
 
 In your components template:
 ```html
-  <vue-material-icon name="favorite" :size="32"></vue-material-icon>
+  <vue-material-icon name="favorite" :size="32" :color="red"></vue-material-icon>
 ```
 - **name** - material icon name which can be find [here](https://material.io/icons/)
 - **size** - icon size in px (24 is default)
