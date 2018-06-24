@@ -1,5 +1,5 @@
 <template functional>
-  <span class="material-icon" :style="{ fontSize: `${ props.size || 24 }px` }"
+  <span class="material-icon" :style="{ fontSize: `${ props.size || 24 }px`, color: `${ props.color || inherit }` }"
     v-if="props.name">
     {{ props.name }}
   </span>
