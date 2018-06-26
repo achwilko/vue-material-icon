@@ -1,6 +1,6 @@
 {
   "name": "vue-material-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./src/components/VueMaterialIcon.vue",
   "description": "Vue.js functional component to display material icons",
   "scripts": {
